@@ -174,7 +174,6 @@ class Calculator:
                                       font=('Italy', 25, 'bold'))
         self.number_label.pack(padx=5, pady=5)
         root.configure(background='#e1d8b9')
-        self.photo = PhotoImage(file='wood.gif').subsample(5, 5)
 
         ttk.Button(self.button_frame, text='1', command=lambda: display(1)).grid(row=0, column=0, padx=5, pady=5)
         ttk.Button(self.button_frame, text='2', command=lambda: display(2)).grid(row=0, column=1, padx=5, pady=5)
