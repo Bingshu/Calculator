@@ -72,7 +72,7 @@ class Calculator:
             global dec
             global dec_number
             equal()
-            dec_number = 0
+            dec_number = 1
             dec = False
             first_number = False
             operator = 'p'
@@ -83,7 +83,7 @@ class Calculator:
             global dec
             global dec_number
             equal()
-            dec_number = 0
+            dec_number = 1
             dec = False
             first_number = False
             operator = 'mi'
@@ -94,7 +94,7 @@ class Calculator:
             global dec
             global dec_number
             equal()
-            dec_number = 0
+            dec_number = 1
             dec = False
             first_number = False
             operator = 'mu'
@@ -105,7 +105,7 @@ class Calculator:
             global dec
             global dec_number
             equal()
-            dec_number = 0
+            dec_number = 1
             dec = False
             first_number = False
             operator = 'd'
